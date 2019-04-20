@@ -100,7 +100,12 @@ int main(int argc, const char * argv[]) {
         
         close(clientSocketFD);
         
-        
+        /**
+         可在终端模拟socket聊天，起两个终端分别输入如下命令
+          nc -l 9998
+          nc 127.0.0.1 9998
+         
+         */
         
     }
     return 0;
